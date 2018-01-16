@@ -46,10 +46,12 @@ class CrossProductIterator implements \Iterator
         $this->input[$last]->next();
         
         for ($i = $last; $i > 0; --$i) {
-            if (!$this->input[$i]->valid()) {
-                $this->input[$i]->rewind();
-                $this->input[$i - 1]->next();
+            if ($this->input[$i]->valid()) {
+                break;
             }
+            
+            $this->input[$i]->rewind();
+            $this->input[$i - 1]->next();
         }
     }
     
