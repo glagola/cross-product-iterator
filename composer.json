@@ -1,0 +1,21 @@
+{
+  "name": "glagola/array-cross-product-iterator",
+  "description": "Cross product of unlimited arrays without any recursion",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Igor Glagola",
+      "email": "igor@glagola.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glagola\\": "src/"
+    }
+  }
+}
