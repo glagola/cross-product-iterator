@@ -1,5 +1,5 @@
 {
-  "name": "glagola/array-cross-product-iterator",
+  "name": "glagola/cross-product-iterator",
   "description": "Cross product of unlimited arrays without any recursion",
   "type": "library",
   "license": "MIT",
